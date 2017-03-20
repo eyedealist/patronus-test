@@ -1,6 +1,6 @@
 # Patronus.io Backend Developer Test
-*XSS vulnerability detection*
-*Task [here](https://github.com/eyedealist/patronus-test/PatronusIO_BackendDeveloperTest.md)*
+*XSS vulnerability detection*  
+*Original task [here](https://github.com/eyedealist/patronus-test/blob/master/PatronusIO_BackendDeveloperTest.md)*
 
 ### Installation
 ```
@@ -12,11 +12,11 @@ $ npm install
 ```
 $ ./index.js <url> <payload>
 ```
-url - URL of PHP script to test (protocol optional, default HTTP)
+url - URL of PHP script to test (protocol optional, default HTTP)  
 payload - Value of 'name' parameter for GET request
 
 ### Tests
-To run mocha tests and display coverage:
+To run tests and display coverage:
 ```
 $ npm test
 ```
