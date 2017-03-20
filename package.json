@@ -1,0 +1,33 @@
+{
+  "name": "patronus-test",
+  "version": "1.0.0",
+  "description": "Backend developer test for Patronus.io",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.10.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha --",
+    "lint": "./node_modules/.bin/eslint **/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyedealist/patronus-test.git"
+  },
+  "keywords": [
+    "patronus.io",
+    "xss"
+  ],
+  "author": "Trevor Cords <tcords@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyedealist/patronus-test/issues"
+  },
+  "homepage": "https://github.com/eyedealist/patronus-test#readme",
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "nock": "^9.0.9"
+  }
+}
